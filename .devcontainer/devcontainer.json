@@ -1,7 +1,8 @@
 {
   "name": "LMMS Browser Codespace",
-  "dockerFile": "../Dockerfile",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "forwardPorts": [6080],
-  "postCreateCommand": "echo 'Codespace ready! Open port 6080 to view desktop.'",
   "remoteUser": "root"
 }
